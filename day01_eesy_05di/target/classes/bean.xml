@@ -72,13 +72,6 @@
 
 
     <!--复杂类型注入/集合类型注入-->
-    <!--
-        用以给List结构集合注入的标签：
-            list array set
-        用于给Map结构集合注入的标签：
-            map props
-        结构相同，可以互换
-    -->
     <bean id="accountService3" class="com.itheima.service.impl.AccountServiceImpl3">
         <property name="myStrs">
             <array>
